@@ -6,6 +6,7 @@ Adicionar Contato: Permite cadastrar um novo contato com nome e telefone.
 Atualizar Contato: Atualiza as informações de um contato existente.
 Deletar Contato: Remove um contato do banco de dados.
 Listar Contatos: Exibe todos os contatos armazenados.
+
 Arquitetura do Projeto
 O projeto segue o padrão MVC:
 
@@ -24,6 +25,7 @@ src/
 │   └── Contato.java              # Entidade JPA representando um contato
 ├── com/exemplo/agenda/view/
 │   └── ContatoView.java          # Interface gráfica da aplicação
+
 Como Configurar o Projeto no VS Code
 Pré-requisitos:
 Java Development Kit (JDK) instalado.
@@ -57,6 +59,7 @@ Certifique-se de que as bibliotecas necessárias estão instaladas:
 JPA (javax.persistence)
 Hibernate (ou outra implementação JPA)
 Driver do banco de dados (ex.: mysql-connector-java para MySQL)
+
 Compile e execute o arquivo principal AgendaContatos.java.
 Componentes
 1. Model
